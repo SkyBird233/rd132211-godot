@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://5oi2cs57blhx"]
+
+[ext_resource type="PackedScene" uid="uid://vd8hlvmrvokp" path="res://Scenes/Blocks/block.tscn" id="1_id1c8"]
+[ext_resource type="BoxMesh" uid="uid://bf3pce262j0ad" path="res://Meshes/stone_mesh.tres" id="2_jyc1e"]
+
+[node name="Block" instance=ExtResource("1_id1c8")]
+
+[node name="MeshInstance3D" parent="StaticBody3D" index="1"]
+mesh = ExtResource("2_jyc1e")

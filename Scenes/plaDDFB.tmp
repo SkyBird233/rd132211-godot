@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxbjbxx68d4ly"]
+
+[ext_resource type="Script" path="res://Scripts/player_controller.gd" id="1_itqn4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h478h"]
+size = Vector3(0.6, 1.8, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_rsd73"]
+size = Vector3(0.6, 1.8, 0.6)
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_itqn4")
+
+[node name="PlayerCollider" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_h478h")
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0.6, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_rsd73")
