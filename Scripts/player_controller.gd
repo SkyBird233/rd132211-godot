@@ -2,6 +2,7 @@ extends CharacterBody3D
 
 signal place_block
 signal mine_block
+signal highlight_block
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 5
@@ -20,6 +21,8 @@ var camera_rotation_x:Marker3D
 var camera_rotation_y:Marker3D
 
 var ray_cast:RayCast3D
+var ray_cast_colliding_node:Node
+
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -36,13 +39,11 @@ func _input(event):
 		if camera_rotation_x.rotation.x + rx > -PI/2 and camera_rotation_x.rotation.x + rx < PI/2:
 			camera_rotation_x.rotate_x(rx)
 
-	if event.is_pressed() and event is InputEventMouseButton and ray_cast.is_colliding():
-		var the_block = ray_cast.get_collider().get_node("..")
-		
+	if event.is_pressed() and event is InputEventMouseButton and ray_cast_colliding_node != null:
 		if event.button_index == MOUSE_BUTTON_LEFT:
-			mine_block.emit(the_block)
+			mine_block.emit(ray_cast_colliding_node)
 		if event.button_index == MOUSE_BUTTON_RIGHT:
-			place_block.emit(the_block.position + ray_cast.get_collision_normal())
+			place_block.emit(ray_cast_colliding_node.position + ray_cast.get_collision_normal())
 
 
 func _physics_process(delta):
@@ -67,4 +68,13 @@ func _physics_process(delta):
 
 	move_and_slide()
 
+	# Without force update ray_cast.get_collider() will return null when block is destroyed
+	# When using force update the RayCast3D node can be disabled
+	ray_cast.force_raycast_update()
 
+	if ray_cast.is_colliding():
+		ray_cast_colliding_node = ray_cast.get_collider().get_node("..")
+		highlight_block.emit(ray_cast_colliding_node.position, ray_cast.get_collision_normal())
+	else:
+		ray_cast_colliding_node = null
+		highlight_block.emit(Vector3(), Vector3(), Color(0,0,0))

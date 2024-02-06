@@ -32,4 +32,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 near = 0.001
 
 [node name="RayCast3D" type="RayCast3D" parent="CameraPos/RotationY/RotationX"]
+enabled = false
 target_position = Vector3(0, 0, -4)

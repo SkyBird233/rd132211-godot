@@ -6,5 +6,7 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_80qep")
-shader_parameter/hilight_block_pos = null
+shader_parameter/highlight_block_pos = Vector3(0, 0, 0)
+shader_parameter/highlight_block_normal = Vector3(0, 1, 0)
+shader_parameter/highlight_block_mask_color = Color(0, 0, 0, 1)
 shader_parameter/block_textures = ExtResource("2_rhrtf")

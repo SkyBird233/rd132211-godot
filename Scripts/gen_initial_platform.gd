@@ -3,7 +3,7 @@ extends EditorScript
 
 func _run():
 	print('gen_initial_platform')
-	gen(4)
+	gen(10)
 	
 
 func gen(r = 5):
