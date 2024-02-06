@@ -6,4 +6,5 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_80qep")
+shader_parameter/hilight_block_pos = null
 shader_parameter/block_textures = ExtResource("2_rhrtf")

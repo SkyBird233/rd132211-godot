@@ -16,963 +16,963 @@ environment = SubResource("Environment_sbu1t")
 [node name="BlockManager" type="Node" parent="."]
 script = ExtResource("1_e8kvc")
 
-[node name="Block" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="Block" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
 
-[node name="@Node3D@34534" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34534" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -3)
 
-[node name="@Node3D@34535" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34535" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
 
-[node name="@Node3D@34536" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34536" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -1)
 
-[node name="@Node3D@34537" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34537" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
 
-[node name="@Node3D@34538" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34538" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 1)
 
-[node name="@Node3D@34539" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34539" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
 
-[node name="@Node3D@34540" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34540" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 3)
 
-[node name="@Node3D@34541" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34541" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -4)
 
-[node name="@Node3D@34542" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34542" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3)
 
-[node name="@Node3D@34543" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34543" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2)
 
-[node name="@Node3D@34544" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34544" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1)
 
-[node name="@Node3D@34545" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34545" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
 
-[node name="@Node3D@34546" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34546" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
 
-[node name="@Node3D@34547" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34547" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 2)
 
-[node name="@Node3D@34548" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34548" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
 
-[node name="@Node3D@34549" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34549" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4)
 
-[node name="@Node3D@34550" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34550" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -3)
 
-[node name="@Node3D@34551" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34551" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
 
-[node name="@Node3D@34552" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34552" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -1)
 
-[node name="@Node3D@34553" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34553" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
 
-[node name="@Node3D@34554" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34554" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1)
 
-[node name="@Node3D@34555" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34555" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
 
-[node name="@Node3D@34556" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34556" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 3)
 
-[node name="@Node3D@34557" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34557" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -4)
 
-[node name="@Node3D@34558" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34558" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3)
 
-[node name="@Node3D@34559" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34559" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
 
-[node name="@Node3D@34560" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34560" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
 
-[node name="@Node3D@34561" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34561" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
 
-[node name="@Node3D@34562" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34562" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
 
-[node name="@Node3D@34563" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34563" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
 
-[node name="@Node3D@34564" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34564" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3)
 
-[node name="@Node3D@34565" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34565" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
 
-[node name="@Node3D@34566" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34566" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
 
-[node name="@Node3D@34567" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34567" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
 
-[node name="@Node3D@34568" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34568" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
 
-[node name="@Node3D@34569" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34569" parent="BlockManager" instance=ExtResource("2_dopby")]
 
-[node name="@Node3D@34570" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34570" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
 
-[node name="@Node3D@34571" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34571" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
 
-[node name="@Node3D@34572" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34572" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[node name="@Node3D@34573" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34573" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -4)
 
-[node name="@Node3D@34574" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34574" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3)
 
-[node name="@Node3D@34575" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34575" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2)
 
-[node name="@Node3D@34576" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34576" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
 
-[node name="@Node3D@34577" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34577" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
 
-[node name="@Node3D@34578" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34578" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
 
-[node name="@Node3D@34579" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34579" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
 
-[node name="@Node3D@34580" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34580" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3)
 
-[node name="@Node3D@34581" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34581" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4)
 
-[node name="@Node3D@34582" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34582" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -3)
 
-[node name="@Node3D@34583" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34583" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
 
-[node name="@Node3D@34584" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34584" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -1)
 
-[node name="@Node3D@34585" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34585" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
 
-[node name="@Node3D@34586" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34586" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1)
 
-[node name="@Node3D@34587" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34587" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
 
-[node name="@Node3D@34588" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34588" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 3)
 
-[node name="@Node3D@34589" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34589" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -4)
 
-[node name="@Node3D@34590" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34590" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3)
 
-[node name="@Node3D@34591" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34591" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2)
 
-[node name="@Node3D@34592" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34592" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
 
-[node name="@Node3D@34593" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34593" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
 
-[node name="@Node3D@34594" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34594" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1)
 
-[node name="@Node3D@34595" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34595" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 2)
 
-[node name="@Node3D@34596" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34596" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3)
 
-[node name="@Node3D@34597" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34597" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, -4)
 
-[node name="@Node3D@34598" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34598" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, -3)
 
-[node name="@Node3D@34599" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34599" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, -2)
 
-[node name="@Node3D@34600" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34600" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, -1)
 
-[node name="@Node3D@34601" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34601" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, 0)
 
-[node name="@Node3D@34602" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34602" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, 1)
 
-[node name="@Node3D@34603" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34603" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, 2)
 
-[node name="@Node3D@34604" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34604" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, 3)
 
-[node name="@Node3D@34605" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34605" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, -4)
 
-[node name="@Node3D@34606" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34606" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, -3)
 
-[node name="@Node3D@34607" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34607" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, -2)
 
-[node name="@Node3D@34608" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34608" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, -1)
 
-[node name="@Node3D@34609" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34609" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, 0)
 
-[node name="@Node3D@34610" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34610" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, 1)
 
-[node name="@Node3D@34611" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34611" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, 2)
 
-[node name="@Node3D@34612" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34612" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, 3)
 
-[node name="@Node3D@34613" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34613" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, -4)
 
-[node name="@Node3D@34614" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34614" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, -3)
 
-[node name="@Node3D@34615" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34615" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, -2)
 
-[node name="@Node3D@34616" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34616" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, -1)
 
-[node name="@Node3D@34617" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34617" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, 0)
 
-[node name="@Node3D@34618" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34618" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, 1)
 
-[node name="@Node3D@34619" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34619" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, 2)
 
-[node name="@Node3D@34620" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34620" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -1, 3)
 
-[node name="@Node3D@34621" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34621" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, -4)
 
-[node name="@Node3D@34622" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34622" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, -3)
 
-[node name="@Node3D@34623" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34623" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, -2)
 
-[node name="@Node3D@34624" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34624" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, -1)
 
-[node name="@Node3D@34625" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34625" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, 0)
 
-[node name="@Node3D@34626" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34626" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, 1)
 
-[node name="@Node3D@34627" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34627" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, 2)
 
-[node name="@Node3D@34628" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34628" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1, 3)
 
-[node name="@Node3D@34629" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34629" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -4)
 
-[node name="@Node3D@34630" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34630" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -3)
 
-[node name="@Node3D@34631" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34631" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -2)
 
-[node name="@Node3D@34632" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34632" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -1)
 
-[node name="@Node3D@34633" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34633" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
 
-[node name="@Node3D@34634" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34634" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 1)
 
-[node name="@Node3D@34635" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34635" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 2)
 
-[node name="@Node3D@34636" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34636" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 3)
 
-[node name="@Node3D@34637" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34637" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, -4)
 
-[node name="@Node3D@34638" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34638" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, -3)
 
-[node name="@Node3D@34639" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34639" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, -2)
 
-[node name="@Node3D@34640" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34640" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, -1)
 
-[node name="@Node3D@34641" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34641" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, 0)
 
-[node name="@Node3D@34642" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34642" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, 1)
 
-[node name="@Node3D@34643" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34643" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, 2)
 
-[node name="@Node3D@34644" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34644" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -1, 3)
 
-[node name="@Node3D@34645" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34645" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, -4)
 
-[node name="@Node3D@34646" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34646" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, -3)
 
-[node name="@Node3D@34647" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34647" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, -2)
 
-[node name="@Node3D@34648" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34648" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, -1)
 
-[node name="@Node3D@34649" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34649" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, 0)
 
-[node name="@Node3D@34650" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34650" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, 1)
 
-[node name="@Node3D@34651" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34651" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, 2)
 
-[node name="@Node3D@34652" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34652" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -1, 3)
 
-[node name="@Node3D@34653" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34653" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, -4)
 
-[node name="@Node3D@34654" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34654" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, -3)
 
-[node name="@Node3D@34655" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34655" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, -2)
 
-[node name="@Node3D@34656" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34656" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, -1)
 
-[node name="@Node3D@34657" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34657" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, 0)
 
-[node name="@Node3D@34658" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34658" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, 1)
 
-[node name="@Node3D@34659" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34659" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, 2)
 
-[node name="@Node3D@34660" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34660" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, 3)
 
-[node name="@Node3D@34661" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34661" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -4)
 
-[node name="@Node3D@34662" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34662" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -3)
 
-[node name="@Node3D@34663" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34663" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -2)
 
-[node name="@Node3D@34664" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34664" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, -1)
 
-[node name="@Node3D@34665" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34665" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, 0)
 
-[node name="@Node3D@34666" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34666" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, 1)
 
-[node name="@Node3D@34667" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34667" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, 2)
 
-[node name="@Node3D@34668" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34668" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -2, 3)
 
-[node name="@Node3D@34669" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34669" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, -4)
 
-[node name="@Node3D@34670" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34670" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, -3)
 
-[node name="@Node3D@34671" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34671" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, -2)
 
-[node name="@Node3D@34672" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34672" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, -1)
 
-[node name="@Node3D@34673" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34673" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, 0)
 
-[node name="@Node3D@34674" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34674" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, 1)
 
-[node name="@Node3D@34675" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34675" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, 2)
 
-[node name="@Node3D@34676" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34676" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -2, 3)
 
-[node name="@Node3D@34677" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34677" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -4)
 
-[node name="@Node3D@34678" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34678" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -3)
 
-[node name="@Node3D@34679" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34679" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -2)
 
-[node name="@Node3D@34680" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34680" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, -1)
 
-[node name="@Node3D@34681" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34681" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 0)
 
-[node name="@Node3D@34682" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34682" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 1)
 
-[node name="@Node3D@34683" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34683" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 2)
 
-[node name="@Node3D@34684" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34684" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 3)
 
-[node name="@Node3D@34685" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34685" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, -4)
 
-[node name="@Node3D@34686" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34686" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, -3)
 
-[node name="@Node3D@34687" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34687" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, -2)
 
-[node name="@Node3D@34688" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34688" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, -1)
 
-[node name="@Node3D@34689" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34689" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, 0)
 
-[node name="@Node3D@34690" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34690" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, 1)
 
-[node name="@Node3D@34691" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34691" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, 2)
 
-[node name="@Node3D@34692" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34692" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -2, 3)
 
-[node name="@Node3D@34693" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34693" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -4)
 
-[node name="@Node3D@34694" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34694" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -3)
 
-[node name="@Node3D@34695" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34695" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -2)
 
-[node name="@Node3D@34696" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34696" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, -1)
 
-[node name="@Node3D@34697" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34697" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
 
-[node name="@Node3D@34698" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34698" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 1)
 
-[node name="@Node3D@34699" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34699" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 2)
 
-[node name="@Node3D@34700" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34700" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 3)
 
-[node name="@Node3D@34701" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34701" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, -4)
 
-[node name="@Node3D@34702" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34702" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, -3)
 
-[node name="@Node3D@34703" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34703" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, -2)
 
-[node name="@Node3D@34704" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34704" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, -1)
 
-[node name="@Node3D@34705" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34705" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, 0)
 
-[node name="@Node3D@34706" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34706" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, 1)
 
-[node name="@Node3D@34707" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34707" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, 2)
 
-[node name="@Node3D@34708" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34708" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -2, 3)
 
-[node name="@Node3D@34709" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34709" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -4)
 
-[node name="@Node3D@34710" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34710" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -3)
 
-[node name="@Node3D@34711" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34711" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -2)
 
-[node name="@Node3D@34712" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34712" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -1)
 
-[node name="@Node3D@34713" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34713" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 0)
 
-[node name="@Node3D@34714" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34714" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 1)
 
-[node name="@Node3D@34715" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34715" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 2)
 
-[node name="@Node3D@34716" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34716" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 3)
 
-[node name="@Node3D@34717" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34717" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, -4)
 
-[node name="@Node3D@34718" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34718" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, -3)
 
-[node name="@Node3D@34719" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34719" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, -2)
 
-[node name="@Node3D@34720" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34720" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, -1)
 
-[node name="@Node3D@34721" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34721" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, 0)
 
-[node name="@Node3D@34722" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34722" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, 1)
 
-[node name="@Node3D@34723" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34723" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, 2)
 
-[node name="@Node3D@34724" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34724" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -2, 3)
 
-[node name="@Node3D@34725" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34725" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, -4)
 
-[node name="@Node3D@34726" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34726" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, -3)
 
-[node name="@Node3D@34727" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34727" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, -2)
 
-[node name="@Node3D@34728" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34728" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, -1)
 
-[node name="@Node3D@34729" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34729" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, 0)
 
-[node name="@Node3D@34730" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34730" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, 1)
 
-[node name="@Node3D@34731" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34731" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, 2)
 
-[node name="@Node3D@34732" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34732" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -3, 3)
 
-[node name="@Node3D@34733" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34733" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, -4)
 
-[node name="@Node3D@34734" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34734" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, -3)
 
-[node name="@Node3D@34735" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34735" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, -2)
 
-[node name="@Node3D@34736" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34736" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, -1)
 
-[node name="@Node3D@34737" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34737" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, 0)
 
-[node name="@Node3D@34738" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34738" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, 1)
 
-[node name="@Node3D@34739" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34739" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, 2)
 
-[node name="@Node3D@34740" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34740" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -3, 3)
 
-[node name="@Node3D@34741" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34741" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, -4)
 
-[node name="@Node3D@34742" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34742" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, -3)
 
-[node name="@Node3D@34743" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34743" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, -2)
 
-[node name="@Node3D@34744" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34744" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, -1)
 
-[node name="@Node3D@34745" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34745" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, 0)
 
-[node name="@Node3D@34746" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34746" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, 1)
 
-[node name="@Node3D@34747" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34747" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, 2)
 
-[node name="@Node3D@34748" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34748" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -3, 3)
 
-[node name="@Node3D@34749" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34749" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, -4)
 
-[node name="@Node3D@34750" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34750" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, -3)
 
-[node name="@Node3D@34751" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34751" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, -2)
 
-[node name="@Node3D@34752" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34752" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, -1)
 
-[node name="@Node3D@34753" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34753" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, 0)
 
-[node name="@Node3D@34754" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34754" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, 1)
 
-[node name="@Node3D@34755" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34755" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, 2)
 
-[node name="@Node3D@34756" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34756" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, 3)
 
-[node name="@Node3D@34757" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34757" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, -4)
 
-[node name="@Node3D@34758" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34758" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, -3)
 
-[node name="@Node3D@34759" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34759" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, -2)
 
-[node name="@Node3D@34760" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34760" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, -1)
 
-[node name="@Node3D@34761" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34761" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 0)
 
-[node name="@Node3D@34762" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34762" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 1)
 
-[node name="@Node3D@34763" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34763" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 2)
 
-[node name="@Node3D@34764" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34764" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 3)
 
-[node name="@Node3D@34765" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34765" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, -4)
 
-[node name="@Node3D@34766" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34766" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, -3)
 
-[node name="@Node3D@34767" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34767" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, -2)
 
-[node name="@Node3D@34768" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34768" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, -1)
 
-[node name="@Node3D@34769" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34769" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, 0)
 
-[node name="@Node3D@34770" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34770" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, 1)
 
-[node name="@Node3D@34771" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34771" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, 2)
 
-[node name="@Node3D@34772" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34772" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -3, 3)
 
-[node name="@Node3D@34773" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34773" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, -4)
 
-[node name="@Node3D@34774" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34774" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, -3)
 
-[node name="@Node3D@34775" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34775" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, -2)
 
-[node name="@Node3D@34776" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34776" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, -1)
 
-[node name="@Node3D@34777" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34777" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, 0)
 
-[node name="@Node3D@34778" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34778" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, 1)
 
-[node name="@Node3D@34779" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34779" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, 2)
 
-[node name="@Node3D@34780" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34780" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -3, 3)
 
-[node name="@Node3D@34781" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34781" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, -4)
 
-[node name="@Node3D@34782" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34782" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, -3)
 
-[node name="@Node3D@34783" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34783" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, -2)
 
-[node name="@Node3D@34784" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34784" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, -1)
 
-[node name="@Node3D@34785" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34785" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, 0)
 
-[node name="@Node3D@34786" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34786" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, 1)
 
-[node name="@Node3D@34787" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34787" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, 2)
 
-[node name="@Node3D@34788" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34788" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -3, 3)
 
-[node name="@Node3D@34789" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34789" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, -4)
 
-[node name="@Node3D@34790" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34790" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, -3)
 
-[node name="@Node3D@34791" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34791" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, -2)
 
-[node name="@Node3D@34792" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34792" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, -1)
 
-[node name="@Node3D@34793" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34793" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, 0)
 
-[node name="@Node3D@34794" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34794" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, 1)
 
-[node name="@Node3D@34795" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34795" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, 2)
 
-[node name="@Node3D@34796" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34796" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -4, 3)
 
-[node name="@Node3D@34797" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34797" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, -4)
 
-[node name="@Node3D@34798" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34798" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, -3)
 
-[node name="@Node3D@34799" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34799" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, -2)
 
-[node name="@Node3D@34800" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34800" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, -1)
 
-[node name="@Node3D@34801" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34801" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, 0)
 
-[node name="@Node3D@34802" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34802" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, 1)
 
-[node name="@Node3D@34803" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34803" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, 2)
 
-[node name="@Node3D@34804" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34804" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -4, 3)
 
-[node name="@Node3D@34805" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34805" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, -4)
 
-[node name="@Node3D@34806" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34806" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, -3)
 
-[node name="@Node3D@34807" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34807" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, -2)
 
-[node name="@Node3D@34808" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34808" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, -1)
 
-[node name="@Node3D@34809" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34809" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, 0)
 
-[node name="@Node3D@34810" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34810" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, 1)
 
-[node name="@Node3D@34811" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34811" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, 2)
 
-[node name="@Node3D@34812" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34812" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, 3)
 
-[node name="@Node3D@34813" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34813" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, -4)
 
-[node name="@Node3D@34814" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34814" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, -3)
 
-[node name="@Node3D@34815" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34815" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, -2)
 
-[node name="@Node3D@34816" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34816" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, -1)
 
-[node name="@Node3D@34817" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34817" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, 0)
 
-[node name="@Node3D@34818" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34818" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, 1)
 
-[node name="@Node3D@34819" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34819" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, 2)
 
-[node name="@Node3D@34820" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34820" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -4, 3)
 
-[node name="@Node3D@34821" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34821" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, -4)
 
-[node name="@Node3D@34822" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34822" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, -3)
 
-[node name="@Node3D@34823" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34823" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, -2)
 
-[node name="@Node3D@34824" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34824" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, -1)
 
-[node name="@Node3D@34825" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34825" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 0)
 
-[node name="@Node3D@34826" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34826" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 1)
 
-[node name="@Node3D@34827" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34827" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 2)
 
-[node name="@Node3D@34828" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34828" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 3)
 
-[node name="@Node3D@34829" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34829" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, -4)
 
-[node name="@Node3D@34830" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34830" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, -3)
 
-[node name="@Node3D@34831" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34831" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, -2)
 
-[node name="@Node3D@34832" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34832" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, -1)
 
-[node name="@Node3D@34833" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34833" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, 0)
 
-[node name="@Node3D@34834" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34834" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, 1)
 
-[node name="@Node3D@34835" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34835" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, 2)
 
-[node name="@Node3D@34836" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34836" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, -4, 3)
 
-[node name="@Node3D@34837" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34837" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, -4)
 
-[node name="@Node3D@34838" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34838" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, -3)
 
-[node name="@Node3D@34839" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34839" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, -2)
 
-[node name="@Node3D@34840" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34840" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, -1)
 
-[node name="@Node3D@34841" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34841" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, 0)
 
-[node name="@Node3D@34842" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34842" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, 1)
 
-[node name="@Node3D@34843" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34843" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, 2)
 
-[node name="@Node3D@34844" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34844" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -4, 3)
 
-[node name="@Node3D@34845" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34845" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, -4)
 
-[node name="@Node3D@34846" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34846" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, -3)
 
-[node name="@Node3D@34847" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34847" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, -2)
 
-[node name="@Node3D@34848" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34848" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, -1)
 
-[node name="@Node3D@34849" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34849" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, 0)
 
-[node name="@Node3D@34850" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34850" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, 1)
 
-[node name="@Node3D@34851" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34851" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, 2)
 
-[node name="@Node3D@34852" type="Node3D" parent="BlockManager" instance=ExtResource("2_dopby")]
+[node name="@Node3D@34852" parent="BlockManager" instance=ExtResource("2_dopby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -4, 3)
 
 [node name="Player" parent="." instance=ExtResource("2_lghd1")]
