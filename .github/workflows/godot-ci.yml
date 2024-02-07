@@ -74,6 +74,7 @@ jobs:
           godot --headless --verbose --export-release "Web" build/web/index.html
       - name: Patch for Cross Origin Isolation and SharedArrayBuffer  # https://github.com/abarichello/godot-ci/issues/116
         run: |
+          apt-get update && apt-get install curl -y
           cd build/web/
           curl https://raw.githubusercontent.com/josephrocca/clip-image-sorter/92b108dc670d0b56bd6b72963b0e86c4c862412e/enable-threads.js --output enable-threads.js
           sed -i 's|headers.set("Cross-Origin-Embedder-Policy", "credentialless")|headers.set("Cross-Origin-Embedder-Policy", "require-corp")|g'  enable-threads.js
