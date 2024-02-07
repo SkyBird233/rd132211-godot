@@ -33,20 +33,30 @@ func _ready():
 
 
 func _input(event):         
-	if event is InputEventMouseMotion:
-		camera_rotation_y.rotate_y(-event.relative.x*mouse_sens)
-		var rx=-event.relative.y*mouse_sens
-		if camera_rotation_x.rotation.x + rx > -PI/2 and camera_rotation_x.rotation.x + rx < PI/2:
-			camera_rotation_x.rotate_x(rx)
+	# click to capture mouse, escape to release
+	if Input.is_action_just_pressed("focus"):
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	if Input.is_action_just_pressed("unfocus"):
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
-	if event.is_pressed() and event is InputEventMouseButton and ray_cast_colliding_node != null:
-		if event.button_index == MOUSE_BUTTON_LEFT:
-			mine_block.emit(ray_cast_colliding_node)
-		if event.button_index == MOUSE_BUTTON_RIGHT:
-			place_block.emit(ray_cast_colliding_node.position + ray_cast.get_collision_normal())
+	if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
+		if event is InputEventMouseMotion:
+			camera_rotation_y.rotate_y(-event.relative.x*mouse_sens)
+			var rx=-event.relative.y*mouse_sens
+			if camera_rotation_x.rotation.x + rx > -PI/2 and camera_rotation_x.rotation.x + rx < PI/2:
+				camera_rotation_x.rotate_x(rx)
+
+		if event.is_pressed() and event is InputEventMouseButton and ray_cast_colliding_node != null:
+			if event.button_index == MOUSE_BUTTON_RIGHT:
+				place_block.emit(ray_cast_colliding_node.position + ray_cast.get_collision_normal())
+			if event.button_index == MOUSE_BUTTON_LEFT:
+				mine_block.emit(ray_cast_colliding_node)
 
 
 func _physics_process(delta):
+	if Input.get_mouse_mode() != Input.MOUSE_MODE_CAPTURED:
+		return
+
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y -= gravity * delta
