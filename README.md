@@ -2,7 +2,7 @@
 
 [![godot-ci export](https://github.com/SkyBird233/rd132211-godot/actions/workflows/godot-ci.yml/badge.svg)](https://github.com/SkyBird233/rd132211-godot/actions/workflows/godot-ci.yml) 
 
-[Screenshot](screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Description
 
