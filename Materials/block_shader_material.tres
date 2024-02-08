@@ -1,7 +1,7 @@
 [gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cham3m7sx03c7"]
 
-[ext_resource type="Shader" path="res://Shaders/block_shader.gdshader" id="1_80qep"]
-[ext_resource type="CompressedTexture2DArray" uid="uid://cwrcj0xj675xn" path="res://Textures/terrain.png" id="2_rhrtf"]
+[ext_resource type="Shader" path="res://shaders/block_shader.gdshader" id="1_80qep"]
+[ext_resource type="CompressedTexture2DArray" uid="uid://cwrcj0xj675xn" path="res://textures/terrain.png" id="2_rhrtf"]
 
 [resource]
 render_priority = 0

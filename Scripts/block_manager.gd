@@ -8,8 +8,8 @@ var block_material:ShaderMaterial
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	solid_block = preload("res://Scenes/Blocks/block.tscn")
-	block_material = preload("res://Materials/block_shader_material.tres")
+	solid_block = preload("res://scenes/blocks/block.tscn")
+	block_material = preload("res://materials/block_shader_material.tres")
 
 
 func set_block(block_pos:Vector3):

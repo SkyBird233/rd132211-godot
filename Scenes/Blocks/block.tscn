@@ -1,11 +1,11 @@
 [gd_scene load_steps=4 format=3 uid="uid://vd8hlvmrvokp"]
 
-[ext_resource type="Material" uid="uid://cham3m7sx03c7" path="res://Materials/block_shader_material.tres" id="1_fqsqf"]
+[ext_resource type="Material" uid="uid://cham3m7sx03c7" path="res://materials/block_shader_material.tres" id="1_btbrk"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_b2m8h"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_mcj68"]
-material = ExtResource("1_fqsqf")
+material = ExtResource("1_btbrk")
 
 [node name="Block" type="Node3D"]
 

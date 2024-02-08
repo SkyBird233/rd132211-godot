@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://tsgl5kujqwjo"]
 
-[ext_resource type="Script" path="res://Scripts/block_manager.gd" id="1_e8kvc"]
-[ext_resource type="PackedScene" uid="uid://vd8hlvmrvokp" path="res://Scenes/Blocks/block.tscn" id="2_dopby"]
-[ext_resource type="PackedScene" uid="uid://bxbjbxx68d4ly" path="res://Scenes/player.tscn" id="2_lghd1"]
+[ext_resource type="Script" path="res://scripts/block_manager.gd" id="1_e8kvc"]
+[ext_resource type="PackedScene" uid="uid://vd8hlvmrvokp" path="res://scenes/blocks/block.tscn" id="2_dopby"]
+[ext_resource type="PackedScene" uid="uid://bxbjbxx68d4ly" path="res://scenes/player.tscn" id="2_lghd1"]
 
 [sub_resource type="Environment" id="Environment_sbu1t"]
 background_mode = 1
