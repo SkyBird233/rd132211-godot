@@ -9,4 +9,4 @@ export.cfg
 # Imported translations (automatically generated from CSV files)
 *.translation
 
-Build
+build
